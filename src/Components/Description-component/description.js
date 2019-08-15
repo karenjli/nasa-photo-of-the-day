@@ -3,9 +3,9 @@ import React from "react";
 const Description = (props) => {
     return (
         <div className = "picInfo">
-            <h2>{props.title}</h2>
-            <h4>{props.date}</h4>
-            <p>{props.explanation}</p>
+            <h2 className = "picName">{props.title}</h2>
+            <h4 class ="picDate">{props.date}</h4>
+            <p class="picDetail">{props.explanation}</p>
         </div>
     )
 };

@@ -31,3 +31,44 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.leftBox {
+  width: 35%;
+  background-color: darkblue;
+  padding: 2%;
+}
+
+.picInfo {
+  color: white;
+}
+
+.picName {
+  font-size: 16px;
+}
+
+.picDate {
+  font-size: 12px;
+}
+.picDetail {
+  font-size: 10px;
+  text-align: left;
+  line-height: 15px;
+}
+
+.rightBox {
+  width: 65%;
+  background-color: black;
+}
+
+.spacePic {
+  width: 100%;
+  object-fit: contain;
+}
+
+

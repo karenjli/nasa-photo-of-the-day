@@ -3,7 +3,7 @@ import React from "react";
 const Image = (props) => {
     return (
         <div className = "picture">
-            <img src = {props.img}></img>
+            <img className = "spacePic" src = {props.img}></img>
         </div>
     )
 };
